@@ -1,16 +1,32 @@
-# Create .gitignore file
-echo "node_modules/" >> .gitignore
-echo ".env" >> .gitignore
-echo ".env.local" >> .gitignore
-echo "*.log" >> .gitignore
-echo "npm-debug.log*" >> .gitignore
-echo "yarn-debug.log*" >> .gitignore
-echo "yarn-error.log*" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "*.suo" >> .gitignore
-echo "*.ntvs*" >> .gitignore
-echo "*.njsproj" >> .gitignore
-echo "*.sln" >> .gitignore
-echo "*.sw?" >> .gitignore
-echo "*.lock" >> .gitignore
-echo "package-lock.json" >> .gitignore
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build files
+dist/
+build/
+*.lock

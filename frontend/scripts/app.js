@@ -1,5 +1,6 @@
-// API Configuration - Use absolute URL to backend
-const API_BASE_URL = 'http://localhost:3000/api';
+// API Configuration - Works for both local and production
+// When deployed, this automatically uses the same domain
+const API_BASE_URL = '/api';
 
 // State
 let currentPage = 'dashboard';
