@@ -1,0 +1,10 @@
+{
+  "name": "music-discovery-frontend",
+  "version": "1.0.0",
+  "description": "Music Discovery Frontend",
+  "scripts": {
+    "start": "npx serve -p 8080",
+    "dev": "npx serve -p 8080"
+  },
+  "dependencies": {}
+}

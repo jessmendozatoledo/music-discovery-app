@@ -1,0 +1,21 @@
+{
+    "name": "music-discovery-app",
+    "version": "1.0.0",
+    "description": "Music discovery application using CognoDB graph database",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js",
+        "seed": "node scripts/seedData.js",
+        "test": "node scripts/testConnection.js"
+    },
+    "dependencies": {
+        "neo4j-driver": "^5.15.0",
+        "express": "^4.18.2",
+        "dotenv": "^16.3.1",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}

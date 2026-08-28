@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎵 Music Discovery</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-content">
+                <h1>🎵 Music Discovery</h1>
+                <p>Discover music through connections</p>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <div class="nav-content">
+                <button class="nav-btn active" data-page="dashboard">Dashboard</button>
+                <button class="nav-btn" data-page="recommendations">Recommendations</button>
+                <button class="nav-btn" data-page="artists">Artist Network</button>
+                <button class="nav-btn" data-page="stats">Statistics</button>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div id="app-content">
+                <div class="loading-container">
+                    <div class="spinner"></div>
+                    <p>Loading content...</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Built with ❤️ using CognoDB Graph Database</p>
+        </footer>
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
