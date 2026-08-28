@@ -11,17 +11,14 @@ A graph database-powered music discovery application built with CognoDB. Discove
 
 1. [🎯 Use Case](#-use-case)
 2. [🤔 Why a Graph Database?](#-why-a-graph-database)
-3. [📊 Data Model](#-data-model)
-4. [🔍 Key Queries](#-key-queries)
-5. [🚀 Setup Instructions](#-setup-instructions)
-6. [📸 Screenshots](#-screenshots)
-7. [🌐 Deployment Guide](#-deployment-guide)
-8. [🎥 Video Demo](#-video-demo)
-9. [🛠️ Tech Stack](#️-tech-stack)
-10. [📁 Project Structure](#-project-structure)
-11. [✅ Requirements Checklist](#-requirements-checklist)
-12. [🐛 Troubleshooting](#-troubleshooting)
-13. [📧 Contact](#-contact)
+3. [🔍 Key Queries](#-key-queries)
+4. [🚀 Setup Instructions](#-setup-instructions)
+5. [📸 Screenshots](#-screenshots)
+6. [🌐 Deployment Guide](#-deployment-guide)
+7. [🛠️ Tech Stack](#️-tech-stack)
+8. [📁 Project Structure](#-project-structure)
+
+##### NOTE: FOR THE DOCUMENTATION AND THE SCREENSHOTS OF THE APPLICATION AND THE ENTITY RELATIONSHIP DIAGRAM, PLEASE REFER TO THE `docs` FOLDER 
 
 ---
 
@@ -144,7 +141,7 @@ COLLABORATED_WITH	Artist → Artist	year (int)	Artists collaborated	Radiohead co
 INFLUENCED_BY	Artist → Artist	-	Artist influenced by another	Thom Yorke influenced by Bjork
 
 
-# Key Quiries
+## Key Quiries
 
 1. Multi-Hop Traversal: Personalized Recommendations (3 hops)
 What it does: Finds songs that share genres with songs the user already likes, ranked by number of matching genres.
@@ -227,7 +224,7 @@ RETURN type(r) as type, COUNT(r) as count
 ORDER BY count DESC
 
 
-# 🚀 Setup Instructions
+## 🚀 Setup Instructions
 
 ## Prerequisites
 Before you begin, ensure you have:
@@ -332,11 +329,7 @@ npm run seed
 =================================================
 
 
-##### FOR THE DOCUMENTATION AND THE SCREENSHOTS OF THE APPLICATION ITSELF PLEASE REFER TO THE `docs` FOLDER 
-
-
-
-# Deployment guide:
+## Deployment guide:
 choose a free tier of any platform like vercel, render, netlify, etc, but i use render.
 
 # Step 1: Push Code to GitHub
@@ -376,13 +369,13 @@ PORT=3000
 
 # The Video Demo walkthrough of this link
 
-# The tech stack 
+## The tech stack 
 backend: node.js and express.js, dotenv, CORS
 frontend: html, css, javascript, fetch API, Vanilla JS
 database: Neo4j
 Development: Nodemon, Git, npm
 
-# Project Structure
+## Project Structure
 
 music-discovery-app/
 │
