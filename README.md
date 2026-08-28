@@ -4,6 +4,7 @@ A graph database-powered music discovery application built with CognoDB. Discove
 
 **Live Demo:** [https://music-discovery-app-z4m7.onrender.com/](https://music-discovery-app-z4m7.onrender.com/)
 
+**Video Demo:** [https://drive.google.com/drive/folders/1SNPpKXh4z3TnKdHUHYklv99thpNC14c_?usp=sharing](https://drive.google.com/drive/folders/1SNPpKXh4z3TnKdHUHYklv99thpNC14c_?usp=sharing)
 ---
 
 ## 📋 Table of Contents
