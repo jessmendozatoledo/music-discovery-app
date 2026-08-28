@@ -2,7 +2,7 @@
 
 A graph database-powered music discovery application built with CognoDB. Discover new music through connections and relationships between users, songs, artists, albums, and genres.
 
-**Live Demo:** [https://music-discovery-app.onrender.com](https://music-discovery-app.onrender.com)
+**Live Demo:** [https://music-discovery-app-z4m7.onrender.com/](https://music-discovery-app-z4m7.onrender.com/)
 
 ---
 
@@ -369,8 +369,8 @@ PORT=3000
 
 # Step 5: Click " Create Web Service"
 # Step 6: Your app will be available at the URL provided by Render
-✅ Backend: https://your-backend.onrender.com
-✅ Frontend: https://your-frontend.onrender.com 
+✅ Backend: (example) https://your-backend.onrender.com
+✅ Frontend: (example) https://your-frontend.onrender.com 
 
 
 # The Video Demo walkthrough of this link
