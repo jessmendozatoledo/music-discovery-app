@@ -175,7 +175,7 @@ async function loadRecommendations() {
             <p style="color: #666; margin-bottom: 20px;">Discover new music based on your listening patterns</p>
 
             ${personalized.success && personalized.data.length > 0 ? `
-                <h3>🎵 Based on Your Taste</h3>
+                <h3>🎵 Music that you might like</h3>
                 <div class="grid">
                     ${personalized.data.map(song => `
                         <div class="card">
